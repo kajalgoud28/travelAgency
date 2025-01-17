@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packages - Travel Agency</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Travel Agency</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="packages.html" class="active">Packages</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Packages Section -->
+  <section class="packages">
+    <h1>Our Travel Packages</h1>
+    <div class="package-cards">
+      <div class="card">
+        <h3>Beach Getaway</h3>
+        <p>Price: $999</p>
+        <p>Enjoy 7 days in the Maldives with luxurious accommodations.</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>Mountain Adventure</h3>
+        <p>Price: $1,299</p>
+        <p>Experience the Swiss Alps with guided tours and activities.</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>City Explorer</h3>
+        <p>Price: $899</p>
+        <p>Discover Paris and its iconic landmarks in a 5-day tour.</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Travel Agency. All Rights Reserved.</p>
+  </footer>
+  <style>
+      /* Packages Section */
+.packages {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.packages h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.package-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.package-cards .card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.package-cards .card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.package-cards .card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.package-cards .card .btn {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.package-cards .card .btn:hover {
+  background-color: #ff4a3d;
+}
+
+  </style>
+</body>
+</html>
